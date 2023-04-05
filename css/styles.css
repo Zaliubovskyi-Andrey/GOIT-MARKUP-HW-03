@@ -1,0 +1,254 @@
+:root {
+    --text-color: #434455;
+    --Primary-Brand: #4D5AE5;
+    --Pressed-state: #404BBF;
+    --Dark: #2E2F42;
+    --Success: #31D0AA;
+    --Subtle-Text: #8E8F99;
+    --Accent: #E7E9FC;
+    --Light: #F4F4FD;
+    --Modal-overlay: #2E2F42;
+    --Hero-background: #2E2F42;
+    --White-background: #FFFFFF;
+    --Modal-background: #FCFCFC;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    background-color: var(--White-background);
+}
+
+/* Header section   */
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--Pressed-state);
+}
+
+.link:focus {
+    color: var(--Pressed-state);
+}
+
+.list {
+    list-style: none;
+}
+
+.contact {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.contact:hover {
+    color: var(--Pressed-state);
+}
+
+.contact:focus {
+    color: var(--Pressed-state);
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--Dark);
+}
+
+.logo-web {
+    color: var(--Primary-Brand);
+
+}
+
+.logo-studio {
+    color: var(--Dark);
+}
+
+.logo-studio-footer {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--Light);
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--Dark);
+}
+
+.header-link:hover {
+    color: var(--Pressed-state);
+}
+
+.header-link:focus {
+    color: var(--Pressed-state);
+}
+
+
+.address-link {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--text-color);
+}
+
+/* Hero section */
+.main-title {
+    background-color: var(--Dark);
+}
+
+.main-text {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--White-background);
+}
+
+.button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: var(--Primary-Brand);
+    color: var(--White-background);
+}
+
+.button:hover {
+    background-color: var(--Pressed-state);
+}
+
+.button:focus {
+    background-color: var(--Pressed-state);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+/* Section 1 */
+.adventage-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--Dark);
+}
+
+.adventage-list {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--Dark);
+}
+
+.adventage-text {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+/* Section 2 */
+.activity-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--Dark);
+}
+
+/* Section 3 */
+.main-team {
+    background: var(--Light);
+}
+
+.team {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--Dark);
+}
+
+.team-list-background {
+    background-color: var(--White-background);
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--Dark);
+}
+
+.team-position {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+/* Footer section */
+.small-text {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--Light);
+}
+
+
+
+/* Seaction main-portfolio */
+.btn-portfolio {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--Primary-Brand);
+    background-color: var(--Light);
+}
+
+.btn-portfolio:hover {
+    color: var(--White-background);
+    background-color: var(--Pressed-state);
+
+}
+
+.btn-portfolio:focus {
+    color: var(--White-background);
+    background-color: var(--Pressed-state);
+}
+
+.card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--Dark);
+}
+
+.card-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
