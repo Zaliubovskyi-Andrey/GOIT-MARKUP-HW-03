@@ -12,11 +12,35 @@
     --White-background: #FFFFFF;
     --Modal-background: #FCFCFC;
 }
+.container {
+    max-width:1128px;
+    margin-left: auto;
+    margin-right: auto;
+    outline:2px solid red;
+    outline-offset:-2 px;
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+   
+.container .header{
+    display: flex
+}
+.header-nav{
+    display: flex;
+    margin-right: auto;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--text-color);
     background-color: var(--White-background);
+}
+/* reset start */
+h1,h2,h3,h4,h5,h6,p{margin: 0}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto.
 }
 
 /* Header section   */
@@ -34,7 +58,28 @@ body {
 
 .list {
     list-style: none;
+    padding: o;
+    margin: 0;
+    
 }
+.header-container {
+    display:flex;
+    align-items: center;
+}
+.list-nav{
+    display: flex;
+    margin left: 76px;
+    gap: 30px;
+}
+.contact{
+    display: flex;
+     
+}
+.list-contact{
+    display: flex;
+}
+/* reset end */
+
 
 .contact {
     font-style: normal;
@@ -42,6 +87,7 @@ body {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--text-color);
+    display: flex;
 }
 
 .contact:hover {
@@ -60,11 +106,14 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--Dark);
+    margin-top: 24px;
+    margin-bottom: 24px;
+    
 }
 
 .logo-web {
     color: var(--Primary-Brand);
-
+    
 }
 
 .logo-studio {
@@ -87,6 +136,9 @@ body {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--Dark);
+    display: flex;
+    padding-bottom: 24px;
+    padding-top: 24px;
 }
 
 .header-link:hover {
@@ -102,6 +154,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: var(--text-color);
+    margin-right: 40px;
 }
 
 /* Hero section */
@@ -137,6 +190,9 @@ body {
 
 .pointer {
     cursor: pointer;
+}
+.navigation{
+display: flex;
 }
 
 /* Section 1 */
