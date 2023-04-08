@@ -13,7 +13,7 @@
     --Modal-background: #FCFCFC;
 }
 .container {
-    max-width:1128px;
+    width:1158px;
     margin-left: auto;
     margin-right: auto;
     outline:2px solid red;
@@ -28,6 +28,9 @@
 .header-nav{
     display: flex;
     margin-right: auto;
+}
+.header{ 
+    border-bottom: 1px solid #e7e9fc;
 }
 
 body {
