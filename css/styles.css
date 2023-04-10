@@ -64,7 +64,7 @@ img{
 
 .list {
     list-style: none;
-    padding: o;
+    padding: 0;
     margin: 0;
     display: flex;
     gap: 24px;
@@ -254,6 +254,9 @@ display: flex;
 }
 
 /* Section 2 */
+.activity-container{
+    padding-bottom: 120px;
+}
 .activity-title {
     font-size: 36px;
     line-height: 1.11;
@@ -261,6 +264,13 @@ display: flex;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--Dark);
+    margin-bottom: 72px; 
+}
+.activity-title-list{
+    padding-bottom: 120px;
+}
+.activity-img{
+    width: calc((100% - 48px) / 3);
 }
 
 /* Section 3 */
