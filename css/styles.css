@@ -279,7 +279,7 @@ display: flex;
 /* Section 3 */
 .main-team {
     background: var(--Light);
-    padding: 120 px 0;
+    padding: 120px 0;
 }
 
 .team {
@@ -324,10 +324,28 @@ display: flex;
     line-height: 24px;
     color: var(--Light);
 }
-
+.footer-container{
+    padding: 100px 0;
+}
+.link-footer{
+    display: inline-block; 
+    margin-bottom: 16px;
+}
 
 
 /* Seaction main-portfolio */
+.main-portfolio-container{
+    padding: 96px 0 120px;
+}
+.btn-portfolio-container-list{
+    justify-content: center;
+    margin-bottom: 72px ;
+}
+.btn-portfolio-container{
+    padding: 12px 24px;
+    border: 1px solid var(--Accent);
+    border-radius: 4px;
+}
 .btn-portfolio {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -336,17 +354,31 @@ display: flex;
     letter-spacing: 0.04em;
     color: var(--Primary-Brand);
     background-color: var(--Light);
+    
 }
 
 .btn-portfolio:hover {
     color: var(--White-background);
     background-color: var(--Pressed-state);
+    border: 1px solid transparent ;
 
 }
 
 .btn-portfolio:focus {
     color: var(--White-background);
     background-color: var(--Pressed-state);
+    border: 1px solid transparent ;
+}
+.list-portfolio{
+    flex-wrap: wrap;
+    row-gap: 48px; 
+}
+.img-portfolio{
+    width: calc((100% - 48px) / 3);
+    padding: 32px 16px;
+    border: 1px solid var(--Accent);
+    border-top: none;
+
 }
 
 .card-title {
@@ -355,6 +387,7 @@ display: flex;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--Dark);
+    margin-bottom: 8px;
 }
 
 .card-item {
