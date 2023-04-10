@@ -222,8 +222,11 @@ display: flex;
     padding: 0px;
     gap: 24px;
 }
+.advantages-container{
+    padding: 120px 0 120px;
+}
 .advantages{
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 .adventage-title {
     font-weight: 500;
