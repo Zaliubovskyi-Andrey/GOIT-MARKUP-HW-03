@@ -223,7 +223,7 @@ img{
     background-color: var(--Primary-Brand);
     color: var(--White-background);
     display: block;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     border: none; 
     border-radius: 4px;
